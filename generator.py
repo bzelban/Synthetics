@@ -1,7 +1,7 @@
 ########################################################
 #Tone (pitch) generator
 # Bedirhan Z. ELBAN #
-# *- Also, No Python Libraries were harmed in the making of this homework
+# *- Also, No Python Libraries were harmed in the making of this script
 #######################################################
 
 
