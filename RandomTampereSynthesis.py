@@ -18,7 +18,7 @@ import time
 
 # Sample Rate may cripples CPU we have to calibrate later
 # DSP (Digital Sound Processing) chips can handle sample rates easily
-# but common CPU's works fairly on double type, not floats
+# but common CPU's works fairly on basic sound waves
 sample_rate = 44100
 
 
@@ -44,7 +44,6 @@ def randTime():
 # Distance Calibration is LETHAL!!
 def randomPitch():
 
-    # If somebody asks the math behind tampere frequencies, I will explain later
     _refFreqA3 = 220 # This is A3, as a reference point
     _constantFreq = 1.05946309434 # frequency handler
 
@@ -76,3 +75,4 @@ while(True):
         time.sleep(duration)
     else:
         stream.write(volume*sample)
+        
